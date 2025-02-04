@@ -1,9 +1,13 @@
+import { Container } from "@mui/material";
 
 
 function App() {
  
   return (
-   <h1>hi there</h1>
+    <Container>
+        <h1>hi there</h1>
+    </Container>
+   
 
   );
 }
