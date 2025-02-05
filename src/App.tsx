@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 function App() {
   return (
     <Container>
-      <h1>hi there</h1>
       <Home />
     </Container>
   );

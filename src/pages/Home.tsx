@@ -1,7 +1,12 @@
-import React from 'react'
+import { Container } from "@mui/material";
+import React from "react";
 
 export default function Home() {
   return (
-    <div>Home</div>
-  )
+    <Container>
+      <h1>header</h1>
+      <h1>addTodo</h1>
+      <h1>todoList</h1>
+    </Container>
+  );
 }
