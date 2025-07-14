@@ -1,4 +1,5 @@
-import { Grid, Typography } from '@mui/material'
+import { Typography } from '@mui/material'
+import Grid from '@mui/material/Grid2'
 import React from 'react'
 
 const TodoList = () => {
@@ -38,7 +39,8 @@ const TodoList = () => {
           <Typography color="error" mt={3}>
             No InProgress Todos!
           </Typography>
-        )}
+        )
+        }
       </Grid>
       <Grid
         size={{ xs: 12, sm: 8, md: 5 }}
