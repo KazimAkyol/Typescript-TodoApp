@@ -1,4 +1,4 @@
-interface ITodoType {
+interface ITodo {
     task: string;
     isDone: boolean;
     id: string | number; //* id değeri string ya da number olabilir
